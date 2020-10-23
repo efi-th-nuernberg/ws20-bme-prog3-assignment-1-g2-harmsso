@@ -1,5 +1,8 @@
 class Main {
   public static void main(String[] args) {
-    System.out.println("Sophie Harms");
+
+    for(int i=1; i<= 200; i++){
+      Zahlenfilter.filter(i);
+    }
   }
 }
